@@ -25,7 +25,7 @@ export const drinks: Drink[] = [
   // Matcha - Evening
   { category: "matcha", timeOfDay: "evening", mood: "sleepy", name: "Warm Almond Milk Matcha", description: "Relaxing and cozy drink.", imageUrl: "/images/11.png" },
   { category: "matcha", timeOfDay: "evening", mood: "happy", name: "Matcha with Marshmallow", description: "Sweet evening treat.", imageUrl: "/images/12.png" },
-  { category: "matcha", timeOfDay: "evening", mood: "calm", name: "Cardamom Matcha", description: "Soothes your mind.", imageUrl: "/images/13.png" },
+  { category: "matcha", timeOfDay: "evening", mood: "calm", name: "Cardamon Matcha", description: "Soothes your mind.", imageUrl: "/images/13.png" },
   { category: "matcha", timeOfDay: "evening", mood: "energetic", name: "Cinnamon Matcha", description: "Warms and inspires.", imageUrl: "/images/14.png" },
   { category: "matcha", timeOfDay: "evening", mood: "creative", name: "Honey Orange Matcha", description: "Bright mix before night.", imageUrl: "/images/15.png" },
 
