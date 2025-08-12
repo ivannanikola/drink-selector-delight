@@ -9,7 +9,7 @@ export interface Drink {
 
 export const drinks = [
   // MATCHA — MORNING
-  { category: "matcha", timeOfDay: "morning", mood: "sleepy",    name: "Matcha Latte with Honey", description: "Soft, sweet boost for a gentle wake‑up.", imageUrl: "https://images.unsplash.com/photo-1717603545758-88cc454db69b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { category: "matcha", timeOfDay: "morning", mood: "sleepy",    name: "Matcha Latte with Honey", description: "Soft, sweet boost for a gentle wake‑up.", imageUrl: " /images/ 1.png" },
   { category: "matcha", timeOfDay: "morning", mood: "happy",     name: "Coconut Matcha",           description: "Tropical twist for a cheerful morning.", imageUrl: "https://source.unsplash.com/600x400/?matcha+coconut" },
   { category: "matcha", timeOfDay: "morning", mood: "calm",      name: "Traditional Hot Matcha",   description: "Meditation in a cup.",                   imageUrl: "https://source.unsplash.com/600x400/?matcha+tea" },
   { category: "matcha", timeOfDay: "morning", mood: "energetic", name: "Ginger Matcha",            description: "Extra kick for your day.",               imageUrl: "https://source.unsplash.com/600x400/?matcha+ginger" },
