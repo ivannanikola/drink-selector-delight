@@ -9,7 +9,7 @@ export interface Drink {
 
 export const drinks: Drink[] = [
   // Matcha - Morning
-  { category: "matcha", timeOfDay: "morning", mood: "sleepy", name: "Matcha Latte with Honey", description: "Soft, sweet boost for a gentle wake-up.", imageUrl: "../../public/images/1.png" },
+  { category: "matcha", timeOfDay: "morning", mood: "sleepy", name: "Matcha Latte with Honey", description: "Soft, sweet boost for a gentle wake-up.", imageUrl: "/images/1.png" },
   { category: "matcha", timeOfDay: "morning", mood: "happy", name: "Coconut Matcha", description: "Tropical twist for a cheerful morning.", imageUrl: "https://source.unsplash.com/600x400/?matcha,coconut" },
   { category: "matcha", timeOfDay: "morning", mood: "calm", name: "Traditional Hot Matcha", description: "Meditation in a cup.", imageUrl: "https://source.unsplash.com/600x400/?matcha,tea" },
   { category: "matcha", timeOfDay: "morning", mood: "energetic", name: "Ginger Matcha", description: "Extra kick for your day.", imageUrl: "https://source.unsplash.com/600x400/?matcha,ginger" },
