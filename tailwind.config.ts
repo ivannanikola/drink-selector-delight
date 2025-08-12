@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +54,24 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				coffee: {
+					primary: 'hsl(var(--coffee-primary))',
+					'primary-foreground': 'hsl(var(--coffee-primary-foreground))',
+					secondary: 'hsl(var(--coffee-secondary))',
+					'secondary-foreground': 'hsl(var(--coffee-secondary-foreground))',
+					accent: 'hsl(var(--coffee-accent))',
+					muted: 'hsl(var(--coffee-muted))',
+					border: 'hsl(var(--coffee-border))',
+				},
+				matcha: {
+					primary: 'hsl(var(--matcha-primary))',
+					'primary-foreground': 'hsl(var(--matcha-primary-foreground))',
+					secondary: 'hsl(var(--matcha-secondary))',
+					'secondary-foreground': 'hsl(var(--matcha-secondary-foreground))',
+					accent: 'hsl(var(--matcha-accent))',
+					muted: 'hsl(var(--matcha-muted))',
+					border: 'hsl(var(--matcha-border))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
