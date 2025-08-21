@@ -128,7 +128,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-poppins;
-    background: url('/lovable-uploads/c566df51-b62d-4845-83d2-2b9f158a2367.png'), var(--gradient-warm);
+    background: 
+      linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+      url('/lovable-uploads/c566df51-b62d-4845-83d2-2b9f158a2367.png'),
+      var(--gradient-warm);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
